@@ -74,6 +74,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "postbuild": "tsc -p ./tsconfig.types.json"
+    "postbuild": "tsc -p ./tsconfig.types.json",
+    "prepare": "npm run build:prod"
   }
 }
