@@ -188,9 +188,7 @@
     "clean-up-svg-icons": "sh ./scripts/clean-up-svg-icons.sh",
     "collect-svg-icons": "node scripts/collect-svg-icons.js",
     "check-dependencies": "ckeditor5-dev-dependency-checker",
-    "check-dependencies:versions-match": "node ./scripts/ci/check-dependencies-versions-match.js",
-    "build:component": "rollup -c build/rollup.config.js",
-    "prepare": "yarn build:component || npm run build:component"
+    "check-dependencies:versions-match": "node ./scripts/ci/check-dependencies-versions-match.js"
   },
   "lint-staged": {
     "**/*.{js,ts}": [
